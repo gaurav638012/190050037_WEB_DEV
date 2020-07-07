@@ -1,0 +1,43 @@
+@keyframes tree {
+    from {background-color: teal;}
+    to{background-attachment: yellow;}
+}
+ul li
+{ 
+   color: brown;
+    list-style-type: disc;
+}
+.imager
+{
+    margin-right: 50px;
+}
+body{
+    background-color: black;
+}
+p.contact{
+   
+    text-shadow: 2px 2px yellowgreen;
+    font-size:20px;
+    margin-left: 50px;
+    color: crimson;
+}
+h3.final{
+    animation-name:tree;
+    animation-duration: 14s;
+    animation-iteration-count: 3;
+    text-shadow: 2px 2px yellowgreen;
+    padding: 25px 30px 25px 30px;
+    border-style: inset;
+    font-size:30px;
+   margin-top: 50px;
+   margin-right:180px;
+   margin-left:160px;
+   transition:margin-right 5s,margin-left 5s,font-size 5s,;
+   
+}
+h3.final:hover{
+    margin-left:0px;
+    margin-right:0px;
+    font-size:40px;
+    
+}
