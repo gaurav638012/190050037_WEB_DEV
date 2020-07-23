@@ -13,8 +13,16 @@
     a.contact{
    
    text-shadow: 2px 2px rgb(11, 1, 26);
-   color: rgb(35, 23, 190);
-}
+   color: rgb(35, 23, 190);}
+  span.csk{
+       color:#F9CD05;
+  }
+  span.mi0{
+    color:#004BA0
+  }
+  span.mi1{
+    color:#D1AB3E
+  }
   </style>
 </head>
 <body>
@@ -107,7 +115,7 @@
         
       </div>
 
-      <p>I am geek interested in machine learning and Probability theory</p>
+      <p>I am a geek interested in machine learning and Probability theory</p>
       <p>I also have a general interest in Physics and Mathematics</p>
       <p>Obviously the Interests might move in different Directions and I am excited for it</p>
       <br>
@@ -138,7 +146,7 @@
       </div>
 
       <p>Yes Indeed I am a Messi fan and Sachin Fan</p>
-      <p>Infact I am an ardent Mumbai Indians Fan though I live in chennai (I Just HATE CSK!!!) </p>
+      <p>Infact I am an ardent <span class="mi0">Mumbai</span> <span class="mi0">Indians</span> Fan though I live in chennai (I Just HATE <span class="csk">CSK</span>!!!) </p>
       <br>
 
       <h5>Other general Interests</h5>
@@ -152,15 +160,15 @@
         </div>
         
         <div class="card bg-success">
-            <img class="card-img-top image-fluid" src="board_game.jpg" alt="board game">
+            <img class="card-img-top image-fluid" src="board_game.jpg" alt="Cricket">
             <div class="card-body">
              <h4 class="card-title">Board Games and Cards</h4>
-             <p>I play them when I am  indoors </p>
+             <p>I play them when I am in indoors </p>
             </div>
         </div>
       </div>
 
-      <p>(ANBE SIVAM,LOVE IS GOD)This Tamil movie shown is one of the best movies with no jazz and show off.An excellent movie to be watched.(IMDB-8.7) Could have given more </p>
+      <p>This Tamil movie shown is one of the best movies with no jazz and show off.An excellent movie to be watched.(IMDB-8.7) Could have given more </p>
       <p>This Game - Secret Hitler is a test of diplomacy and tactics.You really need the knack to convince and deceive your co-players.A game for 7-10 people.Very Interesting Game </p>
       <br>
       
@@ -192,7 +200,7 @@
 
         <div>
             <p class="text">Do give your feedback! (I will <strike>definitely</strike> view the responses)</p>
-            <form class="was-validated">
+            <form class="was-validated" action="https://formspree.io/xdowyarb" method="POST">
                 <div class="input-group">
                   <div class="input-group-prepend">
                     <span class="input-group-text"><i>@</i></span>
@@ -208,7 +216,7 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text"><span class="fa fa-pencil"></span></span>
                   </div>
-                  <textarea class="form-control" rows="5" id="comment" required></textarea>
+                  <textarea name="message" class="form-control" rows="5"  required></textarea>
                   <div class="valid-feedback" style="color: mediumblue";>Valid</div>
                   <div class="invalid-feedback" style="color: mediumblue";>Please fill out this field</div>
                 </div>
@@ -220,7 +228,21 @@
                   </label>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+              </form> 
+               
+              <!--<form  action="https://formspree.io/xdowyarb"   method="POST" >
+                  <label>
+                   Your email:
+                     <input type="text" name="_replyto">
+                  </label>
+                  <label>
+                     Your message:
+                    <textarea name="message"></textarea>
+                  </label>
+
+                  <button type="submit">Send</button>
+              </form>-->
+
         </div>
       </div>
        
